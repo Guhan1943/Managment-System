@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Signup.css"; // Import the CSS file
+import { Link } from "react-router-dom";
 
 export default function Signup() {
   const [form, setForm] = useState({
@@ -91,8 +92,8 @@ export default function Signup() {
         </form>
 
         <p className="login-link">
-          Already have an account?{" "}
-          <a href="/login">Login</a>
+          Already have an account?
+          <Link to="/">Login</Link>
         </p>
       </div>
     </div>

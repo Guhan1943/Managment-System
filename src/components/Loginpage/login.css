@@ -4,6 +4,24 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  .container{
+    /* width: 320px; */
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+  .head{
+    width: 320px;
+    display: flex;
+  }
+  .btn{
+    width: 100%;
+  }
   
   .login-container {
     background: white;
@@ -11,8 +29,9 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 320px;
-    margin: 100px auto;
+    /* margin: 100px auto; */
     text-align: center;
+    
   }
   
   .login-container h2 {
